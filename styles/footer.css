@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    width: 100%;
+    height: 60px;
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights span {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--gray);
+}
+
+@media screen and (max-width: 545px) {
+    .content__footer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

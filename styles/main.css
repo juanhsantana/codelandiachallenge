@@ -1,0 +1,164 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.first span {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--green);
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.first h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--light);
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.first p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+/* ----------------------------------- */
+
+.main__projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin: 4rem 0;
+}
+
+.main__projects ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__projects li {
+    flex: 1 1 300px;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 23px;
+    border-radius: 8px;
+    border: 1px solid var(--purple);
+
+    background: var(--dark-200);
+}
+
+.card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    background: var(--dark);
+}
+
+.card__image img {
+    padding: 2rem;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    gap: 20px;
+}
+
+.card__content span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'IBM PLex Mono', sans-serif;
+    color: var(--light);
+}
+
+.card__content p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--gray);
+}
+
+.card__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card__buttons .btn-demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 10px 20px;
+
+    border-radius: 4px;
+    border: 1px solid var(--green);
+
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+
+    background: var(--green);
+    color: var(--dark);
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card__buttons .btn-demo:hover {
+    background: var(--dark-200);
+    border: 1px solid var(--green);
+    color: var(--light);
+}
+
+.card__buttons .btn-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid var(--green);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dark-200);
+    color: var(--light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card__buttons .btn-github:hover {
+    background: var(--dark);
+}
